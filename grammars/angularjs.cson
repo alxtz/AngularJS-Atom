@@ -1,5 +1,5 @@
 'scopeName': 'text.html.angular'
-'name': 'HTML (Angular)'
+'name': 'HTML (Angular 1)'
 'fileTypes': [
   'htm'
   'html'
@@ -132,6 +132,7 @@
         'name': 'punctuation.definition.block.end.angular'
     'name': 'meta.tag.template.angular'
     'patterns':[
+      { 'include': 'source.js.jsx' }
       { 'include': 'source.js' }
     ]
   'angular-directive-attribute':
@@ -173,6 +174,7 @@
             'name': 'punctuation.definition.string.end.html.angular'
         'name': 'string.quoted.double.html.angular'
         'patterns': [
+          { 'include': 'source.js.jsx' }
           { 'include': '#angular-expressions' }
         ]
       }
